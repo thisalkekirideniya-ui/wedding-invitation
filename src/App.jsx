@@ -165,7 +165,7 @@ const App = () => {
 
           {/* 4. ORDER OF THE DAY - (Vertical Line Removed) */}
           <Section className="bg-white/40">
-            <motion.img {...imageReveal} src="https://cdn-icons-png.flaticon.com/512/3106/3106060.png" className="w-24 md:w-32 mb-10" alt="Celebration" />
+            <motion.img {...imageReveal} src="https://cdn-icons-png.flaticon.com/512/3200/3200371.png" className="w-24 md:w-32 mb-10" alt="Celebration" />
             <h2 className="font-cursive text-6xl md:text-8xl mb-4 text-villa-olive font-bold">Order of the Day</h2>
             <div className="space-y-8 relative w-full max-w-2xl px-6 mt-12">
               {/* Decorative vertical line was here - removed */}

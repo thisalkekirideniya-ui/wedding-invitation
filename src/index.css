@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@400;600;700&display=swap');
+
+@theme {
+  --color-villa-cream: #F2EFE9;
+  --color-villa-olive: #556B2F;
+  --color-villa-wine: #8B0000;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-cursive: "Great Vibes", cursive;
+  --font-sans: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-villa-cream);
+  color: var(--color-villa-olive);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+.glass-glow {
+  filter: drop-shadow(0 0 15px rgba(212, 175, 55, 0.4));
+}
